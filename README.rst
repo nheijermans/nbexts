@@ -13,7 +13,7 @@ To install it, you'll need to edit files in the directory indicated by running
 First, add the JavaScript plugin file that implements the Notebook extension.
 Then, edit ``custom.js`` to contain something like this:
 
-:: javascript
+.. code:: javascript
 
   require(["base/js/events"], function (events) {
       $([IPython.events]).on("app_initialized.NotebookApp", function () {
